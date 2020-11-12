@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cpas-gitlab-bot", "cpas-gitlab-bot\cpas-gitlab-bot.csproj", "{CBADE0B3-5D25-4AED-9879-00C8F7118E77}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{60EC045A-3348-4EFC-9588-178B6F342D83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBADE0B3-5D25-4AED-9879-00C8F7118E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBADE0B3-5D25-4AED-9879-00C8F7118E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBADE0B3-5D25-4AED-9879-00C8F7118E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBADE0B3-5D25-4AED-9879-00C8F7118E77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60EC045A-3348-4EFC-9588-178B6F342D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60EC045A-3348-4EFC-9588-178B6F342D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60EC045A-3348-4EFC-9588-178B6F342D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60EC045A-3348-4EFC-9588-178B6F342D83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

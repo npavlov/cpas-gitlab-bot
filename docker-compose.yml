@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  cpas-gitlab-bot:
+    image: ${DOCKER_REGISTRY-}cpasgitlabbot
+    build:
+      context: .
+      dockerfile: cpas-gitlab-bot/Dockerfile
+    environment:
+        - VIRTUAL_HOST=localhost
+        - ASPNETCORE_ENVIRONMENT=Production
+        - ASPNETCORE_URLS=http://+:80
