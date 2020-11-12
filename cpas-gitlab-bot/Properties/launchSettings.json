@@ -8,11 +8,8 @@
     "cpas_gitlab_bot": {
       "commandName": "Project",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "bot_token": "1132770437:AAHuM8GlELlH8d-wjKZ70qyCylQpFnbe3LA",
-        "gitlab_token": "CJxbx6e3R7cjUVZD4ZDs",
-        "team": "aazuev;DNemkov;EPasianidi;nnafranets;NPPavlov"
+        "ASPNETCORE_ENVIRONMENT": "Development"
       }
-    },
+    } 
   }
 }

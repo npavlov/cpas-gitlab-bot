@@ -19,7 +19,7 @@ namespace cpas_gitlab_bot
         private CrontabSchedule _schedule;
         private DateTime _nextRun;
 
-        private string Schedule => "0 9 * * 1-5"; 
+        private string Schedule => "0 6 * * 1-5"; 
 
         public NotifyService()
         {
