@@ -50,11 +50,12 @@ namespace cpas_gitlab_bot
             var bot_token = Environment.GetEnvironmentVariable("bot_token");
             var gitlab_token = Environment.GetEnvironmentVariable("gitlab_token");
             var team = Environment.GetEnvironmentVariable("team");
+            var gitlab_url = Environment.GetEnvironmentVariable("GITLAB_HOST");
 
             TelegramBotClient Bot = new TelegramBotClient(bot_token);
 
 
-            var client = new RestClient("http://gitlab.k8s.alfa.link/api/v4/")
+            var client = new RestClient($"{gitlab_url}/api/v4/")
             {
                 Authenticator = new JwtAuthenticator(gitlab_token)
             };
