@@ -82,7 +82,10 @@ namespace cpas_gitlab_bot
 
             var sr = new StringBuilder();
 
-            mergeRequests.GroupBy(mr => mr.Author.Name).Select(g => new { name = g.Key, mrs = g.ToList() }).ToList().ForEach(group =>
+            // Сгруппировать МРы по автору
+            mergeRequests.GroupBy(mr => mr.Author.Name).
+                Select(group => new { name = group.Key, mrs = group.ToList() }).
+                ToList().ForEach(group =>
             {
 
                 sr.AppendLine("");
